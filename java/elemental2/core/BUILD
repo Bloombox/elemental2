@@ -40,8 +40,7 @@ java_library(
     srcs = ["BuiltInClosureTypeCleaner.java"],
     visibility = ["//visibility:public"],
     deps = [
-        "//java/com/google/common/base",
-        "//java/com/google/common/collect:collect-gwt",
+        "@com_google_guava",
         "@com_google_jsinterop_generator//java/jsinterop/generator/model",
     ],
 )
